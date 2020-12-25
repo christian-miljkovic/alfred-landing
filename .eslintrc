@@ -1,0 +1,35 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "react-app",
+        "prettier",
+        "plugin:cypress/recommended",
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "prettier",
+        "cypress",
+        "no-only-tests"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "jest": true,
+        "cypress/globals": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": [
+                    "node_modules",
+                    "src"
+                ]
+            }
+        }
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "no-only-tests/no-only-tests": "error"
+    }
+}
