@@ -17,8 +17,7 @@ const Hero = ({ title, content, illustration: Illustration }) => {
               <h1 className="hero-title h2-mobile mt-0 is-revealing">{title}</h1>
               <p className="hero-paragraph is-revealing">{content}</p>
             </div>
-
-            <NewsletterForm className="hero-form" submit="Sign me up!" />
+            <NewsletterForm className="hero-form" submit="Beta Sign up" />
           </div>
 
           <div className="hero-illustration">
