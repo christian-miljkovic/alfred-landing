@@ -10,7 +10,6 @@ const NewsletterForm = ({ className, submitText = 'Submit' }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.debug(email)
     subscribe({
       EMAIL: email,
     })
@@ -19,7 +18,6 @@ const NewsletterForm = ({ className, submitText = 'Submit' }) => {
   const handleInputChange = (e) => {
     const value = e.target.value
     if (value) setEmail(value)
-    console.debug(email)
   }
   return (
     <form
