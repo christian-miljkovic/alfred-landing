@@ -5,8 +5,9 @@ Alfred's Landing Page
 
 ## Next Steps
 
-- Turn everything into functional components
-- Add specifics for launch 
+- Fix z-index on phone image to be top
+- add analytics
+
 ## Inspired By
 
 Slack Landing Page: ![slack-landing-page](src/assets/img/slack-landing.png)
