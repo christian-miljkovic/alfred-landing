@@ -200,7 +200,6 @@ export default function HeroIllustration() {
             </filter>
           </defs>
           <circle cx="12" cy="12" r="12" fill="#FFF" fillRule="evenodd" filter="url(#dropshadow-ball-5)" />
-          <circle cx="12" cy="12" r="12" fill="url(#ball-5-a)" fillRule="evenodd" />
         </svg>
       </div>
     </>
